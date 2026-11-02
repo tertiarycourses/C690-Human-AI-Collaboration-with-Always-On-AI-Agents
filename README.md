@@ -28,9 +28,9 @@ Day 2 moves from one agent to a team. You hire five named bots and put them in o
 
 ## Topics covered
 
-1. **Human–AI Collaboration & Always-On AI Agents.** AI history and agentic AI; under the hood (the brain-and-body analogy, the agentic loop); five collaboration scenarios; use cases; the Big Five always-on agents compared by model and use case; Activity 1.
-2. **Hermes Agent — Your First AI Employee.** What an AI agent is; what Hermes is; install Hermes Desktop and attach the company folder; provider and model; Telegram by QR code or BotFather; voice; tools vs skills, with Gmail, web design and PPTX; Firecrawl; scheduled jobs; Activities 2 and 3 (single agent).
-3. **Hermes Teams — Bots, Group Chats, Kanban & Crons.** Multiple agents: hub-and-spoke, task decomposition and subagents; bots and group chats (Activity 4); video tools and the Kanban board (Activity 5); content crons (Activity 6); grounding and RAG; evaluation; five principles of AI security.
+1. **Overview of Always-On AI Agents and Human-AI Collaboration.** AI history and agentic AI; under the hood (the brain-and-body analogy, the agentic loop); five collaboration scenarios; use cases; the Big Five always-on agents (Meta Muse, Claude Duet, OpenAI Dots, Manus Cue, Grok Bots) compared by model and use case; Activity 1 with Meta Muse or OpenAI Dots.
+2. **Designing and Building a Single Autonomous AI Agent with Hermes.** Your first AI employee: what an AI agent is; what Hermes is; install Hermes Desktop and attach the company folder; provider and model; Telegram by QR code or BotFather; voice; tools vs skills, with Gmail, web design and PPTX; Firecrawl; scheduled jobs; Activities 2 and 3 (single agent).
+3. **Designing Multi-Agent Teams to Improve Workflow Efficiency.** Hermes teams: hub-and-spoke, task decomposition and subagents; bots and group chats (Activity 4); video tools and the Kanban board (Activity 5); content crons (Activity 6); grounding and RAG; evaluation; five principles of AI security.
 4. **Bonus (optional) — Paperclip: Kopi Kaki as a One-Person Company.** Install Paperclip; set up the company and the CEO; the CEO hires a Chief of Staff, who hires the marketing team; the org chart; the team makes the video; compare with Hermes Kanban.
 
 ## Labs
