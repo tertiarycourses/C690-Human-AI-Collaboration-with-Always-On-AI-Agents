@@ -1,18 +1,48 @@
-# AI Agents Fundamentals for Beginners - Labs
+# Labs — Human-AI Collaboration with Always On AI Agents
 
-C690 | v1.0 | Twelve self-contained lab packs
+**The story:** you are the founder-CEO of Kopi Kaki Co., a fictional Singapore kopi startup opening its Tiong Bahru flagship on 1 Dec 2026. AI agents help you start it — three mandatory topics and one bonus topic, one workspace (`~/kopi-kaki`).
 
-- [Lab 01: Workflow business case](lab-01-workflow-business-case/README.md)
-- [Lab 02: Tokenize business tickets](lab-02-tokenize-business-tickets/README.md)
-- [Lab 03: Embeddings and similarity](lab-03-embeddings-and-similarity/README.md)
-- [Lab 04: Grounded policy retrieval](lab-04-grounded-policy-retrieval/README.md)
-- [Lab 05: Bounded tool agent](lab-05-bounded-tool-agent/README.md)
-- [Lab 06: Support approval workflow](lab-06-support-approval-workflow/README.md)
-- [Lab 07: Sales evidence and consent](lab-07-sales-evidence-and-consent/README.md)
-- [Lab 08: Invoice exception agent](lab-08-invoice-exception-agent/README.md)
-- [Lab 09: HR and multi-agent handoffs](lab-09-hr-and-multi-agent-handoffs/README.md)
-- [Lab 10: Train a support classifier](lab-10-train-a-support-classifier/README.md)
-- [Lab 11: Agent evaluation scorecard](lab-11-agent-evaluation-scorecard/README.md)
-- [Lab 12: Governance and incident recovery](lab-12-governance-and-incident-recovery/README.md)
+**Copy-ready prompts:** open the [Lab Prompts page](../prompts/index.html) (also online on the course GitHub Page) — pick a lab, click **Copy**.
 
-Use each folder’s README, PROMPTS PDF, synthetic CSV data and verification scripts. Detailed steps are also included in the Learner Guide. Each folder includes its own synthetic CSV or JSON input files.
+Each folder contains `README.md`, `LAB-<code>-Instructions.pdf` (printable, every step and prompt), `COPY-PROMPTS.txt` and `data/` (mock company files, skills, role files and tools).
+
+## Topic 1 · Your always-on CEO assistant
+
+| Lab | Title | How agents work | Time | Instructions |
+|---|---|---|---|---|
+| Lab 1 | [Activity 1 — Your Always-On CEO Assistant: Meta Muse or OpenAI Dots](lab01-always-on-personal-assistants/README.md) | Personal assistant + human decisions | 75 min | [PDF](lab01-always-on-personal-assistants/LAB-01-Instructions.pdf) |
+
+## Topic 2 · Your first AI employee: one Hermes agent
+
+| Lab | Title | How agents work | Time | Instructions |
+|---|---|---|---|---|
+| Topic 2 Setup | [Hire Your First AI Employee — Hermes Agent Setup](setup02-hermes-first-ai-employee/README.md) | One agent, many tools | 120 min | [PDF](setup02-hermes-first-ai-employee/LAB-S2-Instructions.pdf) |
+| Lab 2 | [Activity 2 — One Agent Builds the Kopi Kaki Website with UX Skills](lab02-kopi-kaki-website/README.md) | Single agent + installed UX skills | 45 min | [PDF](lab02-kopi-kaki-website/LAB-02-Instructions.pdf) |
+| Lab 3 | [Activity 3 — One Agent Builds the Kopi Kaki Pitch Deck with a PPT Tool and Skill](lab03-kopi-kaki-pitch-deck/README.md) | Single agent + PPT tool and skill | 45 min | [PDF](lab03-kopi-kaki-pitch-deck/LAB-03-Instructions.pdf) |
+
+## Topic 3 · Your AI marketing teams: social media and video
+
+| Lab | Title | How agents work | Time | Instructions |
+|---|---|---|---|---|
+| Lab 4 | [Activity 4 — Your Social Media Team: Five Bots in One Group Chat](lab04-social-media-marketing-team/README.md) | Multiple named bots in one group chat | 60 min | [PDF](lab04-social-media-marketing-team/LAB-04-Instructions.pdf) |
+| Lab 5 | [Activity 5 — Your Video Team on a Kanban Board](lab05-video-production-team/README.md) | Agent team on a Kanban board + human gates | 115 min | [PDF](lab05-video-production-team/LAB-05-Instructions.pdf) |
+| Lab 6 | [Activity 6 — Crons Make Next Week's Posts and Video While You Sleep](lab06-content-crons/README.md) | Scheduled jobs that start the team's work | 30 min | [PDF](lab06-content-crons/LAB-06-Instructions.pdf) |
+
+## Bonus topic (optional) · Kopi Kaki as a one-person company in Paperclip
+
+| Lab | Title | How agents work | Time | Instructions |
+|---|---|---|---|---|
+| Bonus Lab | [Paperclip: Run Kopi Kaki as a One-Person Company](bonus-paperclip-one-person-company/README.md) | AI company with an org chart, governed by you | 60 min | [PDF](bonus-paperclip-one-person-company/LAB-B-Instructions.pdf) |
+
+## Evidence to keep
+- Lab 1: ONE Meta Muse or OpenAI Dots screenshot.
+- Lab 3: ONE Hermes Desktop screenshot of your professional PPT.
+- Lab 5: TWO screenshots — your Hermes Kanban board and the video it produced.
+
+## Conventions
+- Prompts are plain English; terminal commands are marked `bash`.
+- Hermes: in the chat box click + → Folder… and choose your kopi-kaki folder, then ask Mia to read and follow `AGENTS.md`.
+- Nothing public is ever posted or sent without your explicit APPROVE.
+- Platforms move fast — if a command differs on your version, check `--help` and the official docs ([Hermes](https://hermes-agent.nousresearch.com/docs/) · [Paperclip](https://github.com/paperclipai/paperclip) · [OpenAI Dots](https://learn.chatgpt.com/docs/dots/getting-started)).
+
+<sub>Part of the course **Human-AI Collaboration with Always On AI Agents** (C690) · © 2026 Tertiary Infotech Academy Pte Ltd · www.tertiarycourses.com.sg</sub>

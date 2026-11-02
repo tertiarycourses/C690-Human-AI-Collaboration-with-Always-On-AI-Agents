@@ -1,0 +1,39 @@
+TOPIC 2 SETUP — Hire Your First AI Employee — Hermes Agent Setup
+Human-AI Collaboration with Always On AI Agents (C690)
+========================================================================
+
+[1] PROMPT — Give Mia a brain: choose your model (10 min)  (paste into: Hermes Desktop — New session)
+------------------------------------------------------------------------
+Say hello in one line as Mia, Kopi Kaki's first AI employee, and tell me which model you are running on.
+
+[2] PROMPT — Hand Mia the company rulebook and meet her (5 min)  (paste into: Hermes Desktop — New session)
+------------------------------------------------------------------------
+You are Mia, the first AI employee of Kopi Kaki Co. Read AGENTS.md and campaign-brief.md in the attached folder and follow AGENTS.md for this session. In five bullets: who we are, what we launch and when, the price, our KPIs, and the three rules you must never break.
+
+[3] PROMPT — Let Mia set up her own toolbox (3 min)  (paste into: Hermes Desktop — Mia, folder Desktop/kopi-kaki)
+------------------------------------------------------------------------
+Prepare this folder for the next labs: create a Python virtual environment called .office-venv here and install python-pptx, openpyxl and Pillow into it. Do not change anything outside this folder. Then tell me in two lines what you installed and whether it works.
+
+[4] PROMPT — Check Mia's tools (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+List the toolsets you have switched on. Which ones do you need to read my email, search the web and make slides? Which would you switch off on Telegram, and why?
+
+[5] PROMPT — Review, then install a skill (10 min)  (paste into: Hermes Desktop — Mia, folder Desktop/kopi-kaki)
+------------------------------------------------------------------------
+Read skills/kopi-email-brief/SKILL.md in this folder. In three bullets, tell me what it makes you do and whether it runs any scripts. Then install it as one of your skills and confirm it is available.
+
+[6] PROMPT — Give Mia web search with Firecrawl (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Search the web for 3 news items from the last 90 days about cold brew or kopi trends in Singapore. For each: headline, date, URL and one takeaway for Kopi Kaki's launch. Mark anything you could not verify. Save it to outputs/research/trends.md.
+
+[7] PROMPT — Connect Gmail with a Google sign-in (10 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Using the Gmail connector (read-only), list my unread Kopi Kaki emails from the last 7 days. Flag any supplier or landlord email that needs a reply today and anything that looks like phishing. Do not send, delete or change anything.
+
+[8] PROMPT — Send ONE approved email (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Draft a reply to the supplier tasting email confirming Thursday 3 pm at the Tiong Bahru flagship. Show me the exact To, Subject and Body. Wait for my SEND. After I say SEND, send it once with the Gmail connector to the trainer-approved test address and confirm it is in Sent.
+
+[9] PROMPT — Schedule the daily 8:00 email summary (10 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Create a scheduled job called 'Morning email brief' that runs every day at 8:00 Asia/Singapore time and delivers to my Telegram. Job: use the kopi-email-brief skill and the Gmail connector to summarise my unread Kopi Kaki email from the last 24 hours: urgent first, then replies needed, then FYI. Read only — never send or change anything. Show me the job when it is saved.

@@ -1,0 +1,46 @@
+LAB 5 — Activity 5 — Your Video Team on a Kanban Board
+Human-AI Collaboration with Always On AI Agents (C690)
+========================================================================
+
+[1] PROMPT — Install the video skill — by asking (8 min)  (paste into: Hermes Desktop — Mia, folder Desktop/kopi-kaki)
+------------------------------------------------------------------------
+Install the official hyperframes skill from the Hermes skills hub. Read its SKILL.md first and tell me what it needs. Then check that this laptop has what it needs (Node.js 22 or newer, FFmpeg, a browser) and run its health check. If anything is missing, tell me exactly what to ask the trainer to install. Do not change system settings.
+
+[2] PROMPT — One prompt: hire the video team and build its Kanban board (10 min)  (paste into: Hermes Desktop — Mia, folder Desktop/kopi-kaki)
+------------------------------------------------------------------------
+Build my video production team and its Kanban board. Workspace: Desktop/kopi-kaki.
+1. Create these five agents (Hermes profiles) by cloning your settings, each with its role file as SOUL.md and the description shown:
+- video-researcher: Extracts the facts the video may use: claim | source file | exact quote (role file souls/video-researcher.SOUL.md)
+- scriptwriter: Turns research.md into a 20-second, 4-scene script, then waits for the founder (role file souls/scriptwriter.SOUL.md)
+- voice-over: Records the narration from the APPROVED script with Hermes text-to-speech (role file souls/voice-over.SOUL.md)
+- video-producer: Renders the APPROVED script into a 1080x1920 MP4 with HyperFrames (role file souls/video-producer.SOUL.md)
+- video-reviewer: Independently checks the video against the QA checklist and sends the founder a review link (role file souls/video-reviewer.SOUL.md)
+2. Create a Kanban board for tenant kopi-video with these cards:
+   1 Research the launch video · video-researcher · body tasks/v1-research.md
+   2 Write the 20-second script · scriptwriter · parent 1 · body tasks/v2-script.md
+   3 HUMAN: approve the script · unassigned · parent 2 · only I complete it
+   4 Record the voice-over · voice-over · parent 3 · body tasks/v3-voice.md
+   5 Render the video · video-producer · parents 3 and 4 · skill hyperframes · body tasks/v4-produce.md
+   6 Review and send me the link · video-reviewer · parent 5 · body tasks/v5-review.md
+   7 HUMAN: approve the exact video · unassigned · parent 6 · only I complete it
+3. Show me the agents and the cards (ID, assignee, parents) as two tables. Never publish or post the video anywhere.
+
+[3] PROMPT — Check the research — grounding (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Open outputs/video/research.md for me and pick two claims. For each, show me the exact line in the source file that supports it.
+
+[4] PROMPT — Approve the script — your first gate (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+I have read outputs/video/script.md and APPROVE it as written. Record my approval with today's date in outputs/video/approvals.md, then complete the 'HUMAN: approve the script' card on the kopi-video board for me.
+
+[5] PROMPT — Production and voice-over (20 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Check outputs/video/final.mp4 for me: does it exist, what are its width, height and duration, and does it have an audio track? Answer in one line per check.
+
+[6] PROMPT — Approve the exact video — your final gate (10 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+I watched http://localhost:8765/final.mp4 to the end. Check that its SHA-256 matches review.md. If it matches, record 'APPROVE <sha256>' with today's date in outputs/video/approvals.md and complete the 'HUMAN: approve the exact video' card for me. Do not post or publish the video anywhere.
+
+[7] PROMPT — Reflect: what did the team buy you? (5 min)  (paste into: Hermes Desktop — Mia)
+------------------------------------------------------------------------
+Summarise the kopi-video run: total time, number of runs per card, what the reviewer caught, my revisions and an estimated model cost. Compare with an agency quote of SGD 3,000 and two weeks. What would you change in one role file to cut my review time next week?

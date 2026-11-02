@@ -1,0 +1,7 @@
+Chosen route:
+Actual account verified (redact in evidence):
+Gmail result/source IDs or error:
+Calendar result/source IDs or error:
+Corrected draft:
+Actual stop state:
+Screenshot path (Muse or Dots):
