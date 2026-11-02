@@ -10,7 +10,7 @@ Learn to delegate real work to always-on AI agents and Hermes agent teams, while
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/human-ai-collaboration-with-always-on-ai-agents.html) |
 | Courseware | v2.0 · 2 November 2026 |
 
-[Open the lab steps and copyable prompts](https://tertiarycourses.github.io/C690-Human-Ai-Collaboration-with-Always-On-AI-Agents/prompts/index.html) · [Sources](prompts/resources.html) · [Download the course ZIP](https://github.com/tertiarycourses/C690-Human-Ai-Collaboration-with-Always-On-AI-Agents/archive/refs/heads/main.zip)
+[Open the lab steps and copyable prompts](https://tertiarycourses.github.io/C690-Human-AI-Collaboration-with-Always-On-AI-Agents/prompts/index.html) · [Sources](prompts/resources.html) · [Download the course ZIP](https://github.com/tertiarycourses/C690-Human-Ai-Collaboration-with-Always-On-AI-Agents/archive/refs/heads/main.zip)
 
 ## About the course
 
@@ -35,7 +35,7 @@ Day 2 moves from one agent to a team. You hire five named bots and put them in o
 
 ## Labs
 
-Every lab folder holds a README, a printable instructions PDF with every step and prompt, `COPY-PROMPTS.txt` and its synthetic data. **[Open the Lab Prompts page](https://tertiarycourses.github.io/C690-Human-Ai-Collaboration-with-Always-On-AI-Agents/prompts/index.html)** to copy each prompt with one click.
+Every lab folder holds a README, a printable instructions PDF with every step and prompt, `COPY-PROMPTS.txt` and its synthetic data. **[Open the Lab Prompts page](https://tertiarycourses.github.io/C690-Human-AI-Collaboration-with-Always-On-AI-Agents/prompts/index.html)** to copy each prompt with one click.
 
 | Lab | Day | Exercise | Time |
 |---|---|---|---|
